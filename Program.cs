@@ -86,7 +86,7 @@
 		static void Main(string[] args)
 		{
 			List<int> minimumHeap = new();
-			MinHeap minHeap = new MinHeap();
+			MinHeap minHeap = new();
 			int queries = Convert.ToInt32(Console.ReadLine().TrimEnd());
 			for (int query = 1; query <= queries; ++query)
 			{
